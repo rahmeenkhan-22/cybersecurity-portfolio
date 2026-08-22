@@ -1,4 +1,3 @@
-
 # Cybersecurity Portfolio — Rahmeen Khan
 
 SOC Analyst Track intern at the National Centre for Cyber Security (NCCS), NED University of Engineering & Technology, working under Team Lead Sheikh Abdul Basit. Telecommunications Engineering student combining network/systems fundamentals with hands-on security analysis.
@@ -14,8 +13,11 @@ This repo documents hands-on detection engineering and malware analysis work com
 - **Environment:** Kali Linux, Nmap, Metasploit
 - **Other:** off-grid communication channel research
 
-## Write-ups
+## Environment
 
+All analysis conducted in a single Linux VM (Kali Linux) with network isolation practices (disconnect during local file/sample handling, reconnect only for verified external services like sandboxes or OSINT lookups). No dedicated Windows analysis VM — dynamic detonation for Windows-targeted malware is done via a public sandbox tier (any.run) rather than local execution.
+
+## Write-ups
 
 | Task | Description |
 | --- | --- |
@@ -25,10 +27,10 @@ This repo documents hands-on detection engineering and malware analysis work com
 | [Meshtastic Security Review](https://github.com/rahmeenkhan-22/cybersecurity-portfolio/blob/main/meshtastic-exploration) | Exploratory research on LoRa mesh networking protocol architecture, encryption model, and known CVEs, including DEF CON red-team findings |
 | [Phishing Email Investigation](https://github.com/rahmeenkhan-22/cybersecurity-portfolio/blob/main/phishing-email-investigation) | Header forensics and OSINT correlation of two socially-engineered phishing emails traced to shared attacker infrastructure |
 
-
 ## Background
 
 Telecommunications Engineering, NED University of Engineering & Technology (2023–2027). Pursuing ISC2 certification alongside coursework.
 
 ---
+
 📫 Connect on [LinkedIn](http://www.linkedin.com/in/rahmeen-khan-25ab2b2b5)
