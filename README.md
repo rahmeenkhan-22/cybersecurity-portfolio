@@ -16,11 +16,14 @@ This repo documents hands-on detection engineering and malware analysis work com
 
 ## Write-ups
 
-| Task | Description |
-|---|---|
-| [Infostealer Family Analysis](./infostealer-analysis) | Study of six infostealer families (Vidar/Arkei, RedLine, Raccoon V2, LummaC2, StealC, Meduza) and YARA rule effectiveness testing |
-| [System-Wide Threat Detection — LummaC2](./threat-detection-lummac2) | Layered detection exercise: ClamAV, YARA, anomaly-based hunting, and Suricata network analysis against a real LummaC2 sample |
 
+| Task | Description |
+| --- | --- |
+| [Infostealer Family Analysis](https://github.com/rahmeenkhan-22/cybersecurity-portfolio/blob/main/infostealer-analysis) | Study of six infostealer families (Vidar/Arkei, RedLine, Raccoon V2, LummaC2, StealC, Meduza) and YARA rule effectiveness testing |
+| [System-Wide Threat Detection — LummaC2](https://github.com/rahmeenkhan-22/cybersecurity-portfolio/blob/main/threat-detection-lummac2) | Layered detection exercise: ClamAV, YARA, anomaly-based hunting, and Suricata network analysis against a real LummaC2 sample |
+| [Malware Analysis — VenomRAT/.NET Stealer](https://github.com/rahmeenkhan-22/cybersecurity-portfolio/blob/main/malware-analysis-venomrat) | Static (Ghidra, Detect It Easy) and dynamic (sandbox) analysis of a packed .NET RAT/stealer, confirming clipboard hijacking and cryptocurrency wallet targeting via RunPE injection |
+| [Meshtastic Security Review](https://github.com/rahmeenkhan-22/cybersecurity-portfolio/blob/main/meshtastic-exploration) | Exploratory research on LoRa mesh networking protocol architecture, encryption model, and known CVEs, including DEF CON red-team findings |
+| [Phishing Email Investigation](https://github.com/rahmeenkhan-22/cybersecurity-portfolio/blob/main/phishing-email-investigation) | Header forensics and OSINT correlation of two socially-engineered phishing emails traced to shared attacker infrastructure |
 
 
 ## Background
@@ -28,4 +31,4 @@ This repo documents hands-on detection engineering and malware analysis work com
 Telecommunications Engineering, NED University of Engineering & Technology (2023–2027). Pursuing ISC2 certification alongside coursework.
 
 ---
-📫 Connect on [LinkedIn](#) *www.linkedin.com/in/rahmeen-khan-25ab2b2b5*
+📫 Connect on [LinkedIn](http://www.linkedin.com/in/rahmeen-khan-25ab2b2b5)
